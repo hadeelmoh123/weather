@@ -8,7 +8,7 @@ import Weather from "../components/home/weather";
 export default function Home() {
   const [cities, setCities] = useState();
 
-  const [city, setCity] = useState("sanaa");
+  const [city, setCity] = useState("Sweden");
 
   const handleClick = (name) => {
     setCity(name);

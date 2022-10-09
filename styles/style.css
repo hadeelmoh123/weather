@@ -1,27 +1,111 @@
 html,
 body {
     padding: 0;
-    background-image: url("../public/img/icons8-search-26.png") no-repeat center center/cover;
-
+    /* background-image: url("../public/img/icons8-search-26.png") no-repeat center center/cover; */
+   
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 body{
-    background-color: aquamarine;
-    background-image: url("../public/img/mon.jpg") no-repeat center center/cover;
-
+    /* background-color: aquamarine; */
+    background-image: url("./../public/pics/tree.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: rgba(170, 160, 160, 0.2);  
+    backdrop-filter: blur(8px);
+    height: 100vh;
 }
-a {
+
+/* a {
     color: inherit;
     text-decoration: none;
-}
+} */
 
+.btn{
+    position: relative;
+    top:150px;
+    background-color: rgba(5, 90, 31, 0.2);  
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 800px;
+    height: 50vh;
+    border-radius: 50px;
+   align-items: center;
+     margin-left: 290px;
+    /* justify-content: center; */ 
+ 
+}
+.name{
+    /* background-color: chocolate; */
+    height: 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 140px;
+    color: rgb(10, 44, 22);
+}
+/* .thw h1{
+display: flex;
+justify-content: center;
+margin-top: 80px;
+} */
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+     width: 100%;
+    margin-top: 30px;
+    /* background-color: cornflowerblue; */
+    /* margin-left: 10px; */
+    margin-right: 0px;
+    font-weight: bold;
+}
+.weather{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 8vh;
+    /* background-color: chartreuse; */
+    /* background-color: aqua; */
+}
+#info{
+    height: 50vh;
+    width: 100%;
+background-size: cover;
+border-radius: 50px;
+    background-image: url("./../public/pics/tree.jpg");
+    /* background-color: rgba(5, 90, 31, 0.2);   */
+
+    /* backdrop-filter: blur(8px); */
+}
+#info input{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 181px;
+    height: 8vh;
+    /* background: transparent; */
+    border-color: whitesmoke;
+    border-radius: 20px;
+}
+.enterInput{
+    height: 50vh;
+    border-radius: 50px;
+
+        /* margin-top: 90px; */
+        background-color: rgba(5, 90, 31, 0.2);  
+
+}
+.city{
+    /* background-color: blueviolet; */
+}
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
+/* 
 .wholeHero {
     height: 100vh;
     background-color: #ffffff;
@@ -55,4 +139,4 @@ a {
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18);
     padding: 1rem;
-}
+} */
